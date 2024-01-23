@@ -15,3 +15,17 @@ sources:
       - name: geolocation
       - name: customers
       - name: closed_deals
+  - name: olist_stg_source
+    database: OLIST
+    schema: dev
+    tables:
+      - name: stg_orders
+      - name: stg_order_items
+      - name: stg_order_payments
+      - name: stg_order_reviews
+      - name: stg_products
+      - name: stg_sellers
+      - name: stg_marketing_qualified_leads
+      - name: stg_geolocation
+      - name: stg_customers
+      - name: stg_closed_deals
